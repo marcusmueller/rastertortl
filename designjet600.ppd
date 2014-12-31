@@ -1,0 +1,136 @@
+*PPD-Adobe: "4.3"
+*% PPD file for DesignJet 600 rtl with CUPS.
+*% Created by the CUPS PPD Compiler v1.0.
+*FormatVersion: "4.3"
+*FileVersion: "2.0"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "designjet600.ppd"
+*Product: "(ESP Ghostscript)"
+*Product: "(GNU Ghostscript)"
+*Manufacturer: "HP"
+*ModelName: "HP DesignJet 600 rtl"
+*ShortNickName: "HP DesignJet 600 rtl"
+*NickName: "HP DesignJet 600 rtl, 2.0"
+*PSVersion: "(3010.000) 705"
+*PSVersion: "(3010.000) 707"
+*LanguageLevel: "3"
+*ColorDevice: False
+*DefaultColorSpace: Gray
+*FileSystem: False
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*% CUPS attributes...
+*cupsVersion: 1.1
+*cupsModelNumber: "1"
+*cupsManualCopies: False
+*cupsFilter: "application/vnd.cups-raster 50 rastertortl"
+*OpenUI *PageSize: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: A3
+*PageSize Letter/Letter - 8.5x11in: "<</PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageSize Legal/Legal - 8.5x14in: "<</PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*PageSize Executive/Executive - 7.25x10.5in: "<</PageSize[522 756]/ImagingBBox null>>setpagedevice"
+*PageSize Monarch/Monarch - 3.875x7.5in: "<</PageSize[279 540]/ImagingBBox null>>setpagedevice"
+*PageSize Statement/Statement - 5.5x8.5in: "<</PageSize[396 612]/ImagingBBox null>>setpagedevice"
+*PageSize A0/A0 - 841x1189mm: "<</PageSize[2384 3370]/ImagingBBox null>>setpagedevice"
+*PageSize A1/A1 - 594x841mm: "<</PageSize[1684 2384]/ImagingBBox null>>setpagedevice"
+*PageSize A2/A2 - 420x594mm: "<</PageSize[1191 1684]/ImagingBBox null>>setpagedevice"
+*PageSize A3/A3 - 297x420mm: "<</PageSize[842 1191]/ImagingBBox null>>setpagedevice"
+*PageSize A4/A4 - 210x297mm: "<</PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: A3
+*PageRegion Letter/Letter - 8.5x11in: "<</PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageRegion Legal/Legal - 8.5x14in: "<</PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*PageRegion Executive/Executive - 7.25x10.5in: "<</PageSize[522 756]/ImagingBBox null>>setpagedevice"
+*PageRegion Monarch/Monarch - 3.875x7.5in: "<</PageSize[279 540]/ImagingBBox null>>setpagedevice"
+*PageRegion Statement/Statement - 5.5x8.5in: "<</PageSize[396 612]/ImagingBBox null>>setpagedevice"
+*PageRegion A0/A0 - 841x1189mm: "<</PageSize[2384 3370]/ImagingBBox null>>setpagedevice"
+*PageRegion A1/A1 - 594x841mm: "<</PageSize[1684 2384]/ImagingBBox null>>setpagedevice"
+*PageRegion A2/A2 - 420x594mm: "<</PageSize[1191 1684]/ImagingBBox null>>setpagedevice"
+*PageRegion A3/A3 - 297x420mm: "<</PageSize[842 1191]/ImagingBBox null>>setpagedevice"
+*PageRegion A4/A4 - 210x297mm: "<</PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: A3
+*ImageableArea Letter/Letter - 8.5x11in: "18.00 12.00 594.00 780.00"
+*ImageableArea Legal/Legal - 8.5x14in: "18.00 12.00 594.00 996.00"
+*ImageableArea Executive/Executive - 7.25x10.5in: "18.00 12.00 504.00 744.00"
+*ImageableArea Monarch/Monarch - 3.875x7.5in: "18.00 12.00 261.00 528.00"
+*ImageableArea Statement/Statement - 5.5x8.5in: "18.00 12.00 378.00 600.00"
+*ImageableArea A0/A0 - 841x1189mm: "9.72 12.00 2374.28 3358.00"
+*ImageableArea A1/A1 - 594x841mm: "9.72 12.00 1674.28 2372.00"
+*ImageableArea A2/A2 - 420x594mm: "9.72 12.00 1181.28 1672.00"
+*ImageableArea A3/A3 - 297x420mm: "9.72 12.00 832.28 1179.00"
+*ImageableArea A4/A4 - 210x297mm: "9.72 12.00 585.28 830.00"
+*DefaultPaperDimension: A3
+*PaperDimension Letter/Letter - 8.5x11in: "612.00 792.00"
+*PaperDimension Legal/Legal - 8.5x14in: "612.00 1008.00"
+*PaperDimension Executive/Executive - 7.25x10.5in: "522.00 756.00"
+*PaperDimension Monarch/Monarch - 3.875x7.5in: "279.00 540.00"
+*PaperDimension Statement/Statement - 5.5x8.5in: "396.00 612.00"
+*PaperDimension A0/A0 - 841x1189mm: "2384.00 3370.00"
+*PaperDimension A1/A1 - 594x841mm: "1684.00 2384.00"
+*PaperDimension A2/A2 - 420x594mm: "1191.00 1684.00"
+*PaperDimension A3/A3 - 297x420mm: "842.00 1191.00"
+*PaperDimension A4/A4 - 210x297mm: "595.00 842.00"
+*RequiresPageRegion All: True
+*OpenUI *Resolution/Output Resolution: PickOne
+*OrderDependency: 20.0 AnySetup *Resolution
+*DefaultResolution: 300dpi
+*Resolution 150dpi/150 DPI: "<</HWResolution[150 150]>>setpagedevice"
+*Resolution 300dpi/300 DPI: "<</HWResolution[300 300]>>setpagedevice"
+*Resolution 600dpi/600 DPI: "<</HWResolution[600 600]>>setpagedevice"
+*CloseUI: *Resolution
+*OpenUI *CutMedia/Cut Labels: Boolean
+*OrderDependency: 10.0 AnySetup *CutMedia
+*DefaultCutMedia: True
+*CutMedia False/No: "<</CutMedia 0>>setpagedevice"
+*CutMedia True/Yes: "<</CutMedia 4>>setpagedevice"
+*CloseUI: *CutMedia
+*OpenUI *OutputMode/Print Quality: PickOne
+*OrderDependency: 50.0 AnySetup *OutputMode
+*DefaultOutputMode: Normal
+*OutputMode Draft: "    <</OutputType Draft>>setpagedevice"
+*OutputMode Normal: " <</OutputType Normal>>setpagedevice"
+*OutputMode Best: "      <</OutputType Best>>setpagedevice"
+*CloseUI: *OutputMode
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(1.05)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(1.05)" Standard ROM
+*Font AvantGarde-Demi: Standard "(1.05)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(1.05)" Standard ROM
+*Font Bookman-Demi: Standard "(1.05)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(1.05)" Standard ROM
+*Font Bookman-Light: Standard "(1.05)" Standard ROM
+*Font Bookman-LightItalic: Standard "(1.05)" Standard ROM
+*Font Courier: Standard "(1.05)" Standard ROM
+*Font Courier-Bold: Standard "(1.05)" Standard ROM
+*Font Courier-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Courier-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica: Standard "(1.05)" Standard ROM
+*Font Helvetica-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Oblique: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(1.05)" Standard ROM
+*Font Palatino-Bold: Standard "(1.05)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Palatino-Italic: Standard "(1.05)" Standard ROM
+*Font Palatino-Roman: Standard "(1.05)" Standard ROM
+*Font Symbol: Special "(001.005)" Special ROM
+*Font Times-Bold: Standard "(1.05)" Standard ROM
+*Font Times-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Times-Italic: Standard "(1.05)" Standard ROM
+*Font Times-Roman: Standard "(1.05)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(1.05)" Standard ROM
+*Font ZapfDingbats: Special "(001.005)" Special ROM
+*% End of designjet600.ppd, 07071 bytes.

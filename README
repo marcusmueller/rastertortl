@@ -1,0 +1,35 @@
+This is rastertortl, a driver/filter for Raster Transfer Language Plotters, like the HP DesignJet 600, which I bought off eBay for 1.76dB€; I then went and found the files contained in this archive on some obscure mailing list thread, claiming that they were from an early CVS snapshot of CUPS. 
+
+This implies that the source code contained is GPL licensed, so please read about your rights in LICENSE.
+
+The original files of course did not compile with modern cups, and did not come with a Makefile, but with very little tweaks I made them work for me. I now happily print on my 50kg monochrome friend, who conveniently lives in my bedroom. I thus don't claim any copyright, and since all my work consisted of a few lines of commenting out debug prints that were using #defines that no longer exist, I can't claim real contribution. So go wild!
+
+PS: I'm the author of the Makefile. Don't hate me -- things like linker flags are hardcoded, which is because FC 21's cups-devel doesn't even come with a pkg-config file -- and writing a fully fledged CMake detector seemed a bit over the top...
+
+So: Install your CUPS development headers, "make", "sudo make install".
+
+Anyway, following is the original README. Enjoy! ~Marcus
+================================================
+
+What is a rtl-printer. 
+rtl-printers are older plotter like the hp designjet 600
+
+Who needs this driver?
+When you want to use this plotter with cups there is no other free solution
+
+Files:
+designjet-pjl.drv - the ppd-source fitting to the cupsddk
+designjet600.ppd  - the ppd generated from the cupsddk
+rastertortl       - the filter from cups-1.2-CVS
+rastertortl.c     - the sourcecode from the filter
+readme            - this file
+
+
+
+Install:
+
+1. copy rastertortl to your cups-filter directory usuall /usr/lib/cups/filter
+2. copy designjet600.ppd to your ppd-directory  /usr/share/cups/model
+3. restart cupsd /etc/init.d/cupsd stop; /etc/init.d/cupsd start
+4. congfigure the printer
+
